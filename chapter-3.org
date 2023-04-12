@@ -1,0 +1,183 @@
+* kwee1-windows
+** 3.8
+*** cd d:\cprojects\lotus\BootstrapMicroservices2ed\chapter-3\example-1
+*** > docker build -t video-streaming --file Dockerfile .
+docker build -t video-streaming --file Dockerfile .
+#1 [internal] load build definition from Dockerfile
+#1 sha256:a6af933d6b01e04d46b7238fe05ac75f86de8805abed563e1ca74f9773c965c2
+#1 transferring dockerfile:
+#1 transferring dockerfile: 201B 0.0s done
+#1 DONE 0.3s
+
+#2 [internal] load .dockerignore
+#2 sha256:28e3a93bcd08cdfece60b966e283be6e76a56577a956d49ee937da77852bc7fb
+#2 transferring context:
+#2 transferring context: 2B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:18.5.0-alpine
+#3 sha256:9d60c830d4d02f03c5b53865abbb2d0139dfb7a9c1ff870359457bee68328695
+#3 ...
+
+#4 [auth] library/node:pull token for registry-1.docker.io
+#4 sha256:0375d9e849eeb42586996b1b667911360cc55594e84b3d63352e5715be5f09d7
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:18.5.0-alpine
+#3 sha256:9d60c830d4d02f03c5b53865abbb2d0139dfb7a9c1ff870359457bee68328695
+#3 DONE 3.0s
+
+#5 [1/6] FROM docker.io/library/node:18.5.0-alpine@sha256:e479d86de1ef8403adda6800733a7f8d18df4f3c1c2e68ba3e2bc05fdea9de20
+#5 sha256:e7a0a53039ca281cd6bf3275b37184c821f8420be68a54ebe41d3dadc3532585
+#5 resolve docker.io/library/node:18.5.0-alpine@sha256:e479d86de1ef8403adda6800733a7f8d18df4f3c1c2e68ba3e2bc05fdea9de20
+#5 resolve docker.io/library/node:18.5.0-alpine@sha256:e479d86de1ef8403adda6800733a7f8d18df4f3c1c2e68ba3e2bc05fdea9de20 0.2s done
+#5 ...
+
+#7 [internal] load build context
+#7 sha256:a06b038c2c6dd24fd38384e8bccad4b671ecd1978e9cd8040cf508f9855e2f8c
+#7 transferring context: 1.12MB 0.2s done
+#7 DONE 0.4s
+
+#5 [1/6] FROM docker.io/library/node:18.5.0-alpine@sha256:e479d86de1ef8403adda6800733a7f8d18df4f3c1c2e68ba3e2bc05fdea9de20
+#5 sha256:e7a0a53039ca281cd6bf3275b37184c821f8420be68a54ebe41d3dadc3532585
+#5 sha256:e479d86de1ef8403adda6800733a7f8d18df4f3c1c2e68ba3e2bc05fdea9de20 1.43kB / 1.43kB done
+#5 sha256:708b8fc3ed12989b336cfe7c7fb7541339ee67923697db983cdf1d363976f7af 1.16kB / 1.16kB done
+#5 sha256:c523bf998f4272d45f2a67c310c2093254fdf5c3a16732e6cfc067bcfb8eac96 6.67kB / 6.67kB done
+#5 sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8 0B / 2.80MB 0.2s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 0B / 47.42MB 0.2s
+#5 sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7 0B / 2.35MB 0.2s
+#5 sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8 1.05MB / 2.80MB 1.8s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 3.15MB / 47.42MB 1.8s
+#5 sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7 1.05MB / 2.35MB 2.3s
+#5 sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8 2.10MB / 2.80MB 2.8s
+#5 sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7 2.10MB / 2.35MB 3.2s
+#5 sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8 2.80MB / 2.80MB 3.4s done
+#5 sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7 2.35MB / 2.35MB 3.3s done
+#5 extracting sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8
+#5 sha256:d2321210675240f5e72365bd86f672ab4ab7cf176c590b3792b8ff09f354927d 0B / 450B 3.4s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 6.29MB / 47.42MB 3.6s
+#5 sha256:d2321210675240f5e72365bd86f672ab4ab7cf176c590b3792b8ff09f354927d 450B / 450B 3.6s done
+#5 extracting sha256:2408cc74d12b6cd092bb8b516ba7d5e290f485d3eb9672efc00f0583730179e8 0.6s done
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 9.44MB / 47.42MB 4.5s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 12.58MB / 47.42MB 5.4s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 15.73MB / 47.42MB 6.2s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 18.87MB / 47.42MB 7.1s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 22.02MB / 47.42MB 8.0s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 25.17MB / 47.42MB 8.7s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 28.31MB / 47.42MB 9.6s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 31.46MB / 47.42MB 10.4s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 34.60MB / 47.42MB 11.3s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 37.75MB / 47.42MB 12.2s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 40.89MB / 47.42MB 13.1s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 44.04MB / 47.42MB 14.1s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 47.42MB / 47.42MB 14.9s
+#5 sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 47.42MB / 47.42MB 15.1s done
+#5 extracting sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04
+#5 extracting sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 5.2s
+#5 extracting sha256:32ed809bf2a79e4a7ba7c5a8075d82d4adcefd3686f87b7840717a1f3188ee04 6.4s done
+#5 extracting sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7
+#5 extracting sha256:73c211c795d85b92ed3b869dcd0697028ddbb883cdf8fbd186d229fecc07c6b7 0.4s done
+#5 extracting sha256:d2321210675240f5e72365bd86f672ab4ab7cf176c590b3792b8ff09f354927d done
+#5 DONE 24.4s
+
+#6 [2/6] WORKDIR /usr/src/app
+#6 sha256:33f422d3bd980a03c16c2fced2f95c5975c4fe7a506665a86f31a9d8e342575f
+#6 DONE 0.5s
+
+#8 [3/6] COPY package*.json ./
+#8 sha256:3eaea5cc49610c9b3e894e54347a8187b36138b93d69ae21ae84090f8f5a9b87
+#8 DONE 0.2s
+
+#9 [4/6] RUN npm install --only=production
+#9 sha256:bf2bf104562ad4ad8e1ca845d944b45cd766812330cb2600a5bbe68854e48122
+#9 2.345 npm WARN config only Use `--omit=dev` to omit dev dependencies from the install.
+#9 7.613 
+#9 7.613 added 53 packages, and audited 54 packages in 5s
+#9 7.613 
+#9 7.614 2 packages are looking for funding
+#9 7.614   run `npm fund` for details
+#9 7.704 
+#9 7.704 3 high severity vulnerabilities
+#9 7.704 
+#9 7.704 To address issues that do not require attention, run:
+#9 7.704   npm audit fix
+#9 7.704 
+#9 7.704 To address all issues (including breaking changes), run:
+#9 7.704   npm audit fix --force
+#9 7.704 
+#9 7.704 Run `npm audit` for details.
+#9 7.708 npm notice 
+#9 7.709 npm notice New major version of npm available! 8.12.1 -> 9.6.4
+#9 7.709 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.4>
+#9 7.709 npm notice Run `npm install -g npm@9.6.4` to update!
+#9 7.709 npm notice 
+#9 DONE 8.0s
+
+#10 [5/6] COPY ./src ./src
+#10 sha256:28a596bbe2e4ffd5ddbdd84c94b41a586f96ef3087699c318bd1333ef0e2c9a8
+#10 DONE 0.2s
+
+#11 [6/6] COPY ./videos ./videos
+#11 sha256:9bcd6606f49a815761526fb45a7b1fd7a8f1a3f66c59c0d9caf0e73d5c3a7f7f
+#11 DONE 0.1s
+
+#12 exporting to image
+#12 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#12 exporting layers
+#12 exporting layers 0.6s done
+#12 writing image sha256:81456b574498b147c0c04a5462c32d2a0bdc985ecacc8968af571a6c6f90551c done
+#12 naming to docker.io/library/video-streaming done
+#12 DONE 0.7s
+*** > docker run -d -p 3000:3000 -e PORT=3000 video-streaming
+docker run -d -p 3000:3000 -e PORT=3000 video-streaming
+d4352a6448c7eb51f5b0a82bb611d5feaa9dbf4e0933f9fe5a4132c5b7d1e6de
+*** > docker logs d4352a
+docker logs d4352a
+
+> example-1@1.0.0 start
+> node ./src/index.js
+
+Microservice listening on port 3000, point your browser at http://localhost:4000/video
+// Note: 4000 is a bug, should be port env value
+*** > docker stop busy_goldwasser
+docker stop busy_goldwasser
+busy_goldwasser
+*** > docker rm busy_goldwasser
+** 3.9 root=pcc1
+*** naming convention - alphanumeric only
+resource group: pcc1rg
+container registry : pcc1cr
+*** username:pcc1cr password: XZKl3i/89SxxhEmv2gSLVFxMnUgGUPdHHuok245TKd+ACRAk3eUU
+password2: bz49Cj+Bg6PTKpT30I3qOGTx+DBVwnpe48BJXaOZEN+ACRBsyUIS
+*** >docker login pcc1cr.azurecr.io --username pcc1cr --password XZKl3i/89SxxhEmv2gSLVFxMnUgGUPdHHuok245TKd+ACRAk3eUU
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+*** >docker tag video-streaming pcc1cr.azurecr.io/video-streaming:latest
+*** >docker push pcc1cr.azurecr.io/video-streaming:latest
+docker push pcc1cr.azurecr.io/video-streaming:latest
+The push refers to repository [pcc1cr.azurecr.io/video-streaming]
+b96b6c20083e: Preparing
+319a6e62ed51: Preparing
+4f670c02eba5: Preparing
+b63c319f70b8: Preparing
+2e4fb0621778: Preparing
+9b31eee258f6: Preparing
+55a7fed1743e: Preparing
+f916969e36f7: Preparing
+24302eb7d908: Preparing
+9b31eee258f6: Waiting
+55a7fed1743e: Waiting
+f916969e36f7: Waiting
+24302eb7d908: Waiting
+2e4fb0621778: Pushed
+b63c319f70b8: Pushed
+319a6e62ed51: Pushed
+b96b6c20083e: Pushed
+9b31eee258f6: Pushed
+4f670c02eba5: Pushed
+55a7fed1743e: Pushed
+24302eb7d908: Pushed
+latest: digest: sha256:2f4e52d306361e66dd86c545730ab3a480d03f9157b055cc4c5dc483ce379418 size: 2203
+
+*** >docker rm <cid>, docker rmi <iid>
+*** > docker run -d -p 3000:3000 -e PORT=3000 pcc1cr.azurecr.io/video-streaming:latest
