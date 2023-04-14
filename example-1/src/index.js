@@ -1,5 +1,6 @@
 const express = require("express");
 const fs = require("fs");
+const os = require("os");
 
 const app = express();
 
@@ -34,5 +35,5 @@ app.get("/video", async (req, res) => { // Route for streaming video.
 // Starts the HTTP server.
 //
 app.listen(PORT, () => {
-    console.log(`Microservice listening on port ${PORT}, point your browser at http://localhost:${4000}/video`);
+    console.log(`${os.hostname()} ${os.platform()}: Microservice listening on port ${PORT}, point your browser at http://localhost:${PORT}/video`);
 });
